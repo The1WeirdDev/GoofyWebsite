@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    background:rgb(38, 38, 39);
+    min-width:600px;
+    width: 100%;
+    height: 100%;
+}
+canvas {
+    display: block;
+    
+    z-index: 0;
+}
+.text{
+    font-family:"Roboto";
+}
+.darkned_header{
+    color: rgb(105, 105, 105);
+}
+.topheader{
+    background: rgb(56, 56, 60);
+    display: block;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:15%;
+}
+
+.sections{
+    position: absolute;
+    display: flex;
+    gap:5%;
+    left:60%;
+    bottom:20%;
+    width:25%;
+}
+
+.sectionheader{
+    color:rgb(162, 162, 162);
+    position: relative;
+    bottom:70%;
+    line-height:175%;
+    font-size: 250%;
+    display: inline-block;
+    text-decoration:none;
+}
+.MiddleHeader {
+    text-align: center;
+    line-height:175%;
+    font-size: 450%;
+}
